@@ -1,0 +1,870 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: white;
+}
+/* navbar */
+
+.container-fluid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding: 15px;
+}
+
+.navbar-brand img{
+    width: 100px;
+}
+
+.d-flex input{
+    width: 500px;
+    border-radius: 20px;
+    background-color: rgb(250, 249, 249);
+}
+
+input::placeholder{
+    padding: 25px;
+}
+.d-flex{
+    width: 100%;
+    margin-bottom: 10px;
+}
+.d-flex i{
+    position: absolute;
+    bottom: 45px;
+
+}
+
+.icon{
+    padding: 10px;
+    min-width: 40px;
+
+}
+
+.nav-linkk{
+    color: grey;
+    text-decoration: none;
+    padding: 10px;
+    position: relative;
+    top: 20px;
+}
+.nav-item1 .nav-link{
+    width: 150px;
+    position: relative;
+    top: 15px;
+}
+
+
+.btn{
+    /* background-color: white; */
+    border: 1px solid black;
+    border-radius: 0px;
+    /* margin: 5px; */
+    width: 80px;
+    position: relative;
+    top: 15px;
+ 
+}
+
+.signup-btn{
+    background-color: black;
+    color: white;
+    padding: 5px;
+    width: 70px;
+    margin: 5px;
+    position: relative;
+    top: 10px;
+}
+
+.web-icon{
+    padding: 15px;
+    margin: 5px;
+    width: 60px;
+}
+/* main-styling */
+
+.main-content{
+    margin: 10px 0px 5px 8px;
+}
+
+.hero-content{
+    background-color: white;
+    padding: 10px;
+    width: 30%;
+    position: absolute;
+    top: 195px;
+    left: 80px;
+
+}
+
+.course-selection{
+    padding: 25px;
+}
+
+.nav-tabs {
+   
+    list-style: none;
+    
+    
+}
+.nav-item{
+    border-bottom: none;
+    color: grey;
+    font-weight: 700;
+    border: none;
+}
+.nav-item:hover{
+    color: black;
+    cursor: pointer;
+    border: none;
+    
+}
+.nav-tabs .nav-link{
+    color: grey;
+    border: none;
+    
+    
+
+}
+
+#myTabContent{
+    border: 0.5px solid black;
+    padding: 10px;
+}
+
+.tab-pane{
+    padding:10px;
+    /* height: 70vh; */
+}
+
+.tab-pane p{
+    width: 75%;
+}
+
+.tab-pane button{
+    margin: 10px;
+    padding: 10px;
+    border: .5px solid black;
+    background-color: white;
+    font-weight: 600;
+}
+
+/* python */
+.python{
+    padding: 10px;
+}
+.python img{
+    width: 190px;
+}
+.python h5{
+    font-size: 18px;
+    width: 50%;
+    /* padding: 5px; */
+    
+}
+.python p{
+    color: rgb(153, 101, 5);
+    font-weight: 700;
+}
+.python .fa-star{
+    color: rgb(238, 157, 5);
+}
+.python .fa-star-half-stroke{
+    color: rgb(238, 157, 5);
+}
+.python small{
+    color:grey;
+    font-weight: 400;
+}
+.python h6{
+    font-weight: 700;
+}
+.python .span{
+    text-decoration: line-through;
+    color: grey;
+    font-weight: 200;
+}
+
+/* pythondata */
+
+.pythondata{
+    padding: 10px;
+}
+.pythondata img{
+    width: 190px;
+}
+.pythondata h5{
+    font-size: 18px;
+    width: 50%;
+    /* padding: 5px; */
+    
+}
+.pythondata p{
+    color: rgb(153, 101, 5);
+    font-weight: 700;
+}
+.pythondata .fa-star{
+    color: rgb(238, 157, 5);
+}
+.pythondata .fa-star-half-stroke{
+    color: rgb(238, 157, 5);
+}
+.pythondata small{
+    color:grey;
+    font-weight: 400;
+}
+.pythondata h6{
+    font-weight: 700;
+}
+.pythondata .span{
+    text-decoration: line-through;
+    color: grey;
+    font-weight: 200;
+}
+.pythondata button{
+    border: none;
+    background-color: rgb(196, 196, 12);
+    padding: 5px;
+} 
+
+
+
+/* pythonbegi */
+.pythonbegi{
+    padding: 10px;
+}
+.pythonbegi img{
+    width: 190px;
+}
+.pythonbegi h5{
+    font-size: 18px;
+    /* padding: 5px; */
+    
+}
+.pythonbegi p{
+    color: rgb(153, 101, 5);
+    font-weight: 700;
+}
+.pythonbegi .fa-star{
+    color: rgb(238, 157, 5);
+}
+.pythonbegi .fa-star-half-stroke{
+    color: rgb(238, 157, 5);
+}
+.pythonbegi small{
+    color:grey;
+    font-weight: 400;
+}
+.pythonbegi h6{
+    font-weight: 700;
+}
+.pythonbegi .span{
+    text-decoration: line-through;
+    color: grey;
+    font-weight: 200;
+}
+
+/*  */
+/* pythonscrat */
+.pythonscrat{
+    padding: 10px;
+}
+.pythonscrat img{
+    width: 190px;
+}
+.pythonscrat h5{
+    font-size: 18px;
+    /* padding: 5px; */
+    
+}
+.pythonscrat p{
+    color: rgb(153, 101, 5);
+    font-weight: 700;
+}
+.pythonscrat .fa-star{
+    color: rgb(238, 157, 5);
+}
+.pythonscrat .fa-star-half-stroke{
+    color: rgb(238, 157, 5);
+}
+.pythonscrat small{
+    color:grey;
+    font-weight: 400;
+}
+.pythonscrat h6{
+    font-weight: 700;
+}
+.pythonscrat .span{
+    text-decoration: line-through;
+    color: grey;
+    font-weight: 200;
+}
+
+.pythonscrat button{
+    border: none;
+    background-color: rgb(196, 196, 12);
+    padding: 5px;
+} 
+
+/* teachkid */
+.teachkid{
+    padding: 10px;
+}
+.teachkid img{
+    width: 190px;
+}
+.teachkid h5{
+    font-size: 18px;
+    /* padding: 5px; */
+    
+}
+.teachkid p{
+    color: rgb(153, 101, 5);
+    font-weight: 700;
+}
+.teachkid .fa-star{
+    color: rgb(238, 157, 5);
+}
+.teachkid .fa-star-half-stroke{
+    color: rgb(238, 157, 5);
+}
+.teachkid small{
+    color:grey;
+    font-weight: 400;
+}
+.teachkid h6{
+    font-weight: 700;
+}
+.teachkid .span{
+    text-decoration: line-through;
+    color: grey;
+    font-weight: 200;
+}
+
+.teachkid button{
+    border: none;
+    background-color: rgb(196, 196, 12);
+    padding: 5px;
+} 
+
+
+/* carousel */
+ #carouselExampleControls{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    /* margin: 10px; */
+} 
+
+.carousel-inner{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+} 
+
+ .carousel-item-active{
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+
+}
+.d-block{
+/* width: 20%; */
+/* margin: 10px; */
+
+}
+.carousel-item{
+display: flex;
+justify-content: space-between;
+align-items: center; 
+}
+.carousel-control-prev{
+    width: 5px;
+    height: 5px;
+    margin: 20px; 
+    /* position: relative; */
+    /* top: 50px; */
+}
+
+.carousel-control-next{
+    width: 5px;
+    height: 5px;
+    margin: 20px;
+    /* position: relative; */
+    /* bottom: 50px; */
+}
+ 
+.carousel-innerr{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+
+.carousel-itemm{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.third-section .view{
+    font-size: 22px;
+    font-weight: 800;
+    padding: 10px;
+}
+
+
+/* compbootcamp */
+.compbootcamp{
+    padding: 10px;
+}
+.compbootcamp img{
+    width: 190px;
+}
+.compbootcamp h5{
+    font-size: 18px;
+    /* padding: 5px; */
+    
+}
+.compbootcamp p{
+    color: rgb(153, 101, 5);
+    font-weight: 700;
+}
+.compbootcamp .fa-star{
+    color: rgb(238, 157, 5);
+}
+.compbootcamp .fa-star-half-stroke{
+    color: rgb(238, 157, 5);
+}
+.compbootcamp small{
+    color:grey;
+    font-weight: 400;
+}
+.compbootcamp h6{
+    font-weight: 700;
+}
+.compbootcamp .span{
+    text-decoration: line-through;
+    color: grey;
+    font-weight: 200;
+}
+.compbootcamp button{
+    border: none;
+    background-color: rgb(196, 196, 12);
+    padding: 5px;
+}
+/* daysofcode */
+.daysofcode{
+    padding: 10px;
+}
+.daysofcode img{
+    width: 190px;
+}
+.daysofcode h5{
+    font-size: 18px;
+    /* padding: 5px; */
+    
+}
+.daysofcode p{
+    color: rgb(153, 101, 5);
+    font-weight: 700;
+}
+.daysofcode .fa-star{
+    color: rgb(238, 157, 5);
+}
+.daysofcode .fa-star-half-stroke{
+    color: rgb(238, 157, 5);
+}
+.daysofcode small{
+    color:grey;
+    font-weight: 400;
+}
+.daysofcode h6{
+    font-weight: 700;
+}
+.daysofcode .span{
+    text-decoration: line-through;
+    color: grey;
+    font-weight: 200;
+}
+.daysofcode button{
+    border: none;
+    background-color: rgb(196, 196, 12);
+    padding: 5px;
+}
+/* compjava */
+.compjava{
+    padding: 10px;
+}
+.compjava img{
+    width: 190px;
+}
+.compjava h5{
+    font-size: 18px;
+    /* padding: 5px; */
+    
+}
+.compjava p{
+    color: rgb(153, 101, 5);
+    font-weight: 700;
+}
+.compjava .fa-star{
+    color: rgb(238, 157, 5);
+}
+.compjava .fa-star-half-stroke{
+    color: rgb(238, 157, 5);
+}
+.compjava small{
+    color:grey;
+    font-weight: 400;
+}
+.compjava h6{
+    font-weight: 700;
+}
+.compjava .span{
+    text-decoration: line-through;
+    color: grey;
+    font-weight: 200;
+}
+.compjava button{
+    border: none;
+    background-color: rgb(196, 196, 12);
+    padding: 5px;
+}
+/* react */
+.react{
+    padding: 10px;
+}
+.react img{
+    width: 190px;
+}
+.react h5{
+    font-size: 18px;
+    /* padding: 5px; */
+    
+}
+.react p{
+    color: rgb(153, 101, 5);
+    font-weight: 700;
+}
+.react .fa-star{
+    color: rgb(238, 157, 5);
+}
+.react .fa-star-half-stroke{
+    color: rgb(238, 157, 5);
+}
+.react small{
+    color:grey;
+    font-weight: 400;
+}
+.react h6{
+    font-weight: 700;
+}
+.react .span{
+    text-decoration: line-through;
+    color: grey;
+    font-weight: 200;
+}
+.react button{
+    border: none;
+    background-color: rgb(196, 196, 12);
+    padding: 5px;
+}
+
+/* aws */
+.aws{
+    padding: 10px;
+}
+.aws img{
+    width: 190px;
+}
+.aws h5{
+    font-size: 18px;
+    /* padding: 5px; */
+    
+}
+.aws p{
+    color: rgb(153, 101, 5);
+    font-weight: 700;
+}
+.aws .fa-star{
+    color: rgb(238, 157, 5);
+}
+.aws .fa-star-half-stroke{
+    color: rgb(238, 157, 5);
+}
+.aws small{
+    color:grey;
+    font-weight: 400;
+}
+.aws h6{
+    font-weight: 700;
+}
+.aws .span{
+    text-decoration: line-through;
+    color: grey;
+    font-weight: 200;
+}
+.aws button{
+    border: none;
+    background-color: rgb(196, 196, 12);
+    padding: 5px;
+}
+
+/*  section4 styling*/
+.features-category{
+    padding: 30px;
+    background-color: rgb(252, 246, 246);
+}
+.features-category h4{
+    padding: 10px;
+}
+.category-container{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.development{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    /* margin: 10px; */
+}
+.development h5{
+    padding: 10px;
+}
+.development a {
+    padding: 10px;
+}
+.development small{
+    padding: 10px;
+}
+.development button{
+    width: 190px;
+    padding: 10px;
+    margin: 15px;
+    font-size: 12px;
+    font-weight: 600px; 
+    border: 0.5px solid black;
+}
+
+.business{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+.business h5{
+    padding: 10px;
+}
+.business a {
+    padding: 10px;
+}
+.business small{
+    padding: 10px;
+}
+
+.itSoftware{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    /* margin: 10px; */
+}
+.itSoftware h5{
+    padding: 10px;
+}
+.itSoftware a {
+    padding: 10px;
+}
+.itSoftware small{
+    padding: 10px;
+}
+
+
+.design{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    /* margin: 10px; */
+}
+.design h5{
+    padding: 10px;
+}
+.design a {
+    padding: 10px;
+}
+.design small{
+    padding: 10px;
+}
+
+/* fifth section styling */
+.instructn{
+    /* display: flex;
+    justify-content: space-between;
+    align-items: center;
+    line-height: 1.5;
+    margin-left: 20%;  */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10%;
+}
+
+.instructn img{
+    width: 40%;
+    margin: 15px;
+    
+}
+.content-inst{
+    width: 40%;
+    line-height: 1.5;
+    margin: 5px;
+}
+
+
+.content-inst h2{
+
+    width: 280px;
+    font-size: 30px;
+    margin: 15px;
+    font-weight: 500px;
+}
+
+.content-inst p{
+
+    width: 90%;
+    font-size: 20px;
+    margin:15px;
+}
+
+.content-inst button{
+    padding: 10px;
+    background-color: black;
+    color: white;
+    margin: 15px;
+}
+
+
+.trusted-coy{
+    background-color: rgb(250, 248, 248);
+    padding: 30px;
+    text-align: center;
+    margin-top:  5%;
+}
+.trusted-coy img{
+    margin:40px;
+
+}
+/* seventh-styling */
+.udemy-biz{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.biz-content{
+    width: 35%;
+    line-height: 1.5;
+    margin: 5px;
+}
+.biz-content p{
+    margin: 15px;
+    font-size: 20px;
+}
+
+.biz-content button{
+    padding: 10px;
+    background-color: black;
+    color: white;
+    margin: 15px;
+}
+
+
+/* eight-styling */
+.transform{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10%;
+}
+
+.transform img{
+    width: 40%;
+    margin: 15px;
+}
+
+.transform-content{
+    width: 40%;
+    line-height: 1.5;
+    margin: 5px;
+}
+
+
+.transform-content h4{
+    width: 280px;
+    font-size: 30px;
+    margin: 15px;
+    
+}
+
+.transform-content p{
+    width: 90%;
+    font-size: 20px;
+    margin:15px;
+}
+
+.transform-content button{
+    padding: 10px;
+    background-color: black;
+    color: white;
+    margin: 15px;
+    font-size: 17px;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    background-color: black;
+    padding: 30px;
+    line-height: 2;
+    
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.footer a{
+    color: white;
+    text-decoration: none;
+}
+
+.footer a:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    
+}
+
+.footer button{
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+}
+
+footer .footlogo img{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
